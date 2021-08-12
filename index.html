@@ -1,14 +1,103 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
     <head>
-        <title>Welcome to Up</title>
-        <link rel="stylesheet" href="hellostyle.css"/>
-        <script src ="index.js"> </script>
+        <title>Up Webpage</title>
+        <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <h1>Please login back in or sign up</h1>
+        <header>
+            <h1>Welcome to Up</h1>
+        </header>
+        <aside>
+            <div class="container">
+                <form class="form" id="login">
+                    <h1 class="form__title">Login</h1>
+                    <div class="form__message form__message--error"></div>
+                    <div class="form__input-group">
+                        <input type="text" class="form__input" autofocus placeholder="Firstname">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <div class="form__input-group">
+                        <input type="password" class="form__input" autofocus placeholder="Password">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <button class="form__button" type="submit">Continue</button>
+                    <p class="form__text">
+                        <a href="#" class="form__link">Update User Firstname?</a>
+                    </p>
+                    <p class="form__text">
+                        <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create account</a>
+                    </p>
+                </form>
+                <form class="form form--hidden" id="createAccount">
+                    <h1 class="form__title">Create User</h1>
+                    <div class="form__message form__message--error"></div>
+                    <div class="form__input-group">
+                        <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Firstname">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <div class="form__input-group">
+                        <input type="text" class="form__input" autofocus placeholder="Lastname">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <div class="form__input-group">
+                        <input type="text" class="form__input" autofocus placeholder="Age">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <div class="form__input-group">
+                        <input type="password" class="form__input" autofocus placeholder="Password">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <div class="form__input-group">
+                        <input type="password" class="form__input" autofocus placeholder="Confirm password">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <button class="form__button" type="submit">Continue</button>
+                    <p class="form__text">
+                        <a class="form__link" href="./" id="linkLogin">Already have an account? Sign in</a>
+                    </p>
+                </form>
+            </div>
+            <h3>Add your favorite brand to our list of our most popular brands</h3>
+           
+            <form id="form1">
+                <input type="text" username="username" placeholder="Username"/>
+                <input type="submit" value="Submit"/>
+            </form1>
 
+
+        </aside>
+        <article>
+            <div class="article"></div>
+                <img src= https://i2.cdn.turner.com/money/dam/assets/180516153902-start-investing-640x360.jpg>
+                <h3>Highest Earning Youtubers of 2020</h3>
+                <ul>
+                    <li>Ryan Kaji - 29.5 million</li>
+                    <li>Mr.Beat - 24 million</li>
+                    <li>Dude Perfect - 23 million</li>
+                </ul>
+                <a href=https://www.forbes.com/sites/maddieberg/2020/12/18/the-highest-paid-youtube-stars-of-2020/?sh=6770c8ec6e50>Link to Forbes Article</a>
+                <h3>Fun Facts about Brands </h3>
+                <ul>
+                    <li>Facebook has 467,339,001 visits per month</li>
+                    <li>Over 500 hours of video are uploaded to Youtube each hour</li>
+                    <li>With over 309 million followers, Cristiano Ronaldo is the most followed person on instagram </li>
+                </ul>
+                <a href=https://www.brandwatch.com/blog/top-most-instagram-followers>Link to Brandwatch Article</a> 
+            </div>
+        </article>
+       <article>
+           <div class="user-container">
+
+            </div>
+       </article>
+        <footer>
+            <p>Developed by P.Eten</p>
+            <p>Follow our own brand and our socials below!</p>
+                    <!-- Create our links  -->
+        </footer>
+        </div>
+        <script src="index.js"></script>
+        <script src="user.js"></script>
     </body>
-    
-    
 </html>
